@@ -1,0 +1,12 @@
+ <div>
+   <label>PDF src</label>
+   <hr>
+   <input type="file" (change)="onFileSelected($event)" placeholder="PDF src" [(ngModel)]="pdfSrc">
+   <div class="output">Seleccionado: {{ pdfSrc }} </div>
+ </div>
+ <pdf-viewer [src]="pdfSrc" [(page)]="page" [rotation]="rotation" [original-size]="originalSize"
+   [fit-to-page]="fitToPage" (after-load-complete)="afterLoadComplete($event)" [zoom]="zoom" [show-all]="showAll"
+   [stick-to-page]="stickToPage" [render-text]="renderText" [external-link-target]="'blank'" [autoresize]="autoresize"
+   (error)="onError($event)" (on-progress)="onProgress($event)" (page-rendered)="pageRendered($event)">
+   <!-- This place is for speciying the properties of pdfviewing. It comes from the library itself. -->
+ </pdf-viewer>
