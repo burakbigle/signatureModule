@@ -43,10 +43,10 @@ export class AppPdfComponent implements OnInit {
     //this.pdfSrc = "./assets/" + this.selectedFiles[0].name;
     this.pdfSrc = `./assets/${this.selectedFiles[0].name}`;
     const $img: any = document.querySelector('#file');
-    const reader = new FileReader();
+    const reader: FileReader = new FileReader();
 
-    reader.onload = (e: any) => {
-      this.pdfSrc = e.target.result;
+    reader.onload = (e: Event) => {
+      reader.result;
     };
 
     reader.readAsArrayBuffer($img.files[0]);
