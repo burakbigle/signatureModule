@@ -1,6 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { AppPdfComponent } from './pdf-display.component';
 
-import { AppPdfComponent } from './app-pdf.component';
 
 describe('AppPdfComponent', () => {
   let component: AppPdfComponent;

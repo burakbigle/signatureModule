@@ -1,0 +1,20 @@
+<div class="center">
+  <file-drop dropZoneLabel="Drop files here" (onFileDrop)="dropped($event)" 
+  (onFileOver)="fileOver($event)" (onFileLeave)="fileLeave($event)">
+  </file-drop>
+  <div class="upload-table">
+      <table class="table">
+          <thead>
+              <tr>
+                  <th>Name</th>
+              </tr>
+          </thead>
+          <tbody class="upload-name-style">
+              <tr *ngFor="let item of files; let i=index">
+                  <td><strong>Relative path: {{ item.relativePath }}</strong></td>
+                  <td><strong> Size: {{ item.size }}</strong></td>
+              </tr>
+          </tbody>
+      </table>
+  </div>
+</div>
