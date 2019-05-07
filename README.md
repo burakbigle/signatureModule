@@ -45,9 +45,16 @@ An interface characteristics are not limited to but:
 * Beautifully Designed, 
 * User Friendly,
 * Simple, Minimalist, Eye Catching,
+* Supporting multiple languages,
 * Fast enough to handle all the required operations,
 * Bug Free! (yeah, sure right)
 * Well Documented
+
+### Hardware Interfaces
+
+The signature module is working on both desktop and mobile phones. The minimum requirements would be equal to nowadays mid-range cell phones or any laptop is operateable with latest internet browsing providers. As a reference, for the google chrome, the minimum (Version 73.0.3683.103 (Official Build) (64-bit)).
+
+Furthermore,  A system with these specifications can handle a Network of approximately all 4G, depends on the mobile phone release date and specifications, even 5G might be considered for a fast, smooth user experience through mobile devices.
 
 ### Software Interfaces
 
