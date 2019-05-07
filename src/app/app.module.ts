@@ -2,9 +2,10 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { PdfViewerModule } from 'ng2-pdf-viewer';
-import { AppPdfComponent } from './app-pdf/app-pdf.component';
 import { AppComponent } from './app.component';
-import { SignerComponent } from './signer/signer.component';
+import { AppPdfComponent } from './components/app-pdf/app-pdf.component';
+import { SignerComponent } from './components/signers/signer/signer.component';
+import { SignersComponent } from './components/signers/signers.component';
 
 
 
@@ -12,7 +13,8 @@ import { SignerComponent } from './signer/signer.component';
   declarations: [
     AppComponent,
     AppPdfComponent,
-    SignerComponent
+    SignerComponent,
+    SignersComponent
   ],
   imports: [
     BrowserModule,
