@@ -14,7 +14,6 @@ export class AppPdfComponent implements OnInit {
   ngOnInit() {
 
   }
-
   onFileSelected() {
     const img: any = document.querySelector('#file');
 
