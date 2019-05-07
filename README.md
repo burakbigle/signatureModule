@@ -20,7 +20,6 @@ Signature module is a dynamic signature process platform for users to be able to
 
 The module is a piece of a platform that is going to be designed to sign, review, sending and receiving.
 
-
 # Technical Specifications
 
 ## Functional Requirements
@@ -47,7 +46,7 @@ The module is a piece of a platform that is going to be designed to sign, review
 
 ## External Interface Requirements
 
-### UI(User Interface)
+### UI (User Interface)
 
 An interface characteristics are not limited to but: 
 
@@ -95,4 +94,4 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ## Further help
 
-To get more help or the information about the signature module project, you may contact Burak Kilic(burak@biglelegal.com) or Oscar Ginette(oscar.ginette@biglelegal.com), whom are the formal developers of the module, under the supervising of the CTO of BigleLegal, Daniel Tomas Bartomeous(daniel.tomas@biglelegal.com). 
+To get more help or the information about the signature module project, you may contact Burak Kilic (burak@biglelegal.com) or Oscar Ginette (oscar.ginette@biglelegal.com), whom are the formal developers of the module, under the supervising of the CTO of BigleLegal, Daniel Tomas Bartomeous (daniel.tomas@biglelegal.com). 
