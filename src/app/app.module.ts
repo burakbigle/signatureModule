@@ -1,26 +1,19 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
+import { BrowserModule } from '@angular/platform-browser';
 import { PdfViewerModule } from 'ng2-pdf-viewer';
 import { AppPdfComponent } from './app-pdf/app-pdf.component';
-import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
-
-
+import { AppComponent } from './app.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    AppPdfComponent,
-
-
+    AppPdfComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
     PdfViewerModule,
     FormsModule
   ],
@@ -28,5 +21,3 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
-
-platformBrowserDynamic().bootstrapModule(AppModule);
