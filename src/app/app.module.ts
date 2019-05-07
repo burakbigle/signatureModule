@@ -4,13 +4,15 @@ import { BrowserModule } from '@angular/platform-browser';
 import { PdfViewerModule } from 'ng2-pdf-viewer';
 import { AppPdfComponent } from './app-pdf/app-pdf.component';
 import { AppComponent } from './app.component';
+import { SignerComponent } from './signer/signer.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    AppPdfComponent
+    AppPdfComponent,
+    SignerComponent
   ],
   imports: [
     BrowserModule,
