@@ -1,26 +1,16 @@
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
-import { PdfViewerModule } from 'ng2-pdf-viewer';
-import { FileDropModule } from 'ngx-file-drop';
+import { SignatureModule } from 'src/app/signature/signature.module';
 import { AppComponent } from './app.component';
-import { DragdropComponent } from './components/dragdrop/dragdrop.component';
-import { AppPdfComponent } from './components/pdf-display/pdf-display.component';
-import { SignerComponent } from './components/signer/signer.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent,
-    AppPdfComponent,
-    SignerComponent,
-    DragdropComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
-    PdfViewerModule,
-    FormsModule,
-    FileDropModule
+    SignatureModule
   ],
   providers: [],
   bootstrap: [AppComponent]
