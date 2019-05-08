@@ -15,19 +15,14 @@ export class AppPdfComponent implements OnInit {
 
   }
 
-  ngOnChanges(changes: SimpleChanges): void{
+  ngOnChanges(changes: SimpleChanges): void {
     const fileChange: SimpleChange = changes['file'];
-    if (fileChange && !fileChange.firstChange)
-    {
+    if (fileChange && !fileChange.firstChange) {
       this.onFileSelected();
     }
   }
 
   onFileSelected() {
-    // const eventObj: MSInputMethodContext = <MSInputMethodContext> event;
-    // const target: HTMLInputElement = <HTMLInputElement> eventObj.target;
-    // const files: FileList = target.files;
-    // const img: any = document.querySelector('#file');
     if (typeof (FileReader) !== 'undefined') {
       const reader = new FileReader();
 
