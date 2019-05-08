@@ -1,0 +1,69 @@
+//Colors
+$first-color: white;
+$second-color: #004C93;
+$third-color: #282828;
+$fourth-color: #eeeeee;
+$fifth-color: #6db0e2;
+$text-color: #282828;
+$green-color: #08F8AB;
+$red-color: #f55753;
+$orange-color: #FF5E0C;
+$ambar-color:#FEB208;
+$side-bar-color: #2b303b;
+$bl-dark-blue: #1C3355;
+$bl-light-blue: #03B6E5;
+$project-grey-color: #A2A9B7;
+$project-background-color: #F6F6F8;
+$project-borderbox-color: #D2D6DD;
+$project-green-color: #8EBD41;
+//Active
+$inactive-backgroundcolor: $second-color;
+$inactive-bordercolor: darken($second-color, 15%);
+$inactive-textcolor: lighten($text-color, 15%);
+//Inactive
+$active-backgroundcolor: $first-color;
+$active-bordercolor: darken($first-color, 15%);
+$active-textcolor: lighten($text-color, 15%);
+
+//Sizes
+$stdr-height: 50px;
+$stdr-width: 50px;
+$stdr-font-size: 15px;
+$stdr-border-radius: 3px;
+//Label
+$min-label-width: 0px;
+$max-label-width: $stdr-width * 4;
+$label-height: $stdr-height;
+//Input
+$input-width: $stdr-width * 5;
+$input-height: $stdr-height;
+//Buttons
+$min-button-width: $stdr-width / 2;
+$max-button-width: $stdr-width * 5;
+$button-height: $stdr-height / 2;
+//Controls
+$control-width: $stdr-width * 0.75;
+$control-height: $stdr-height * 0.75;
+//Bars
+$bar-width: 100%;
+$bar-height: $stdr-height * 1.5;
+//MainFrame
+$main-top: 50px;
+$main-left: 210px;
+
+// Extra small screen / mobile
+$screen-xxs:                 480px !default;
+// Extra small screen / mobile
+$screen-xs:                  600px !default;
+// Small screen / tablet
+$screen-sm:                  768px !default;
+// Medium screen / desktop
+$screen-md:                  900px !default;
+// Large screen / wide desktop
+$screen-lg:                  1200px !default;
+// Large screen / wide desktop
+$screen-xl:                  1440px !default;
+
+//Test
+$debug: true;
+$test-limits: false;
