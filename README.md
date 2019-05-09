@@ -94,8 +94,4 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ## Further help
 
-<<<<<<< HEAD
 To get more help or the information about the signature module project, you may contact Burak Kilic (burak@biglelegal.com) or Oscar Ginette (oscar.ginette@biglelegal.com), whom are the formal developers of the module, under the supervising of the CTO of BigleLegal, Daniel Tomas Bartomeous (daniel.tomas@biglelegal.com). 
-=======
-To get more help or the information about the signature module project, you may contact Burak Kilic(burak@biglelegal.com) or Oscar Ginette(oscar.ginette@biglelegal.com), whome are the formal developers of the module, under the supervising of the CTO of BigleLegal, Daniel Tomas Bartomeous(daniel.tomas@biglelegal.com). 
->>>>>>> 2eb3482625125b187424b803224e20b2a6bf7ac6
