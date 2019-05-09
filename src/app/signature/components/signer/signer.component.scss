@@ -1,17 +1,23 @@
+@import '~src/assets/sass/variables';
+
 div.signerBox {
-    margin: 6%;
-    padding: 15px;
-    width: 30%;
-    flex-direction: column;
+    padding: 5%;
+    margin: 5%;
+    width: 100%;
+    background-color: $project-grey-color;
     display: flex;
-    background-color: blue;
-}
+    flex-direction: column;
 
-p {
-    margin: 6%;
-    color: blue;
-}
+    h2.signerTitle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: $bl-dark-blue;
+    }
 
-h2 {
-    color: aliceblue;
+    input.signerInput {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }

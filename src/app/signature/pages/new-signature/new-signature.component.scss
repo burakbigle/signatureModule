@@ -1,3 +1,29 @@
-.new-signature-body {
-    background-color: rgba(80, 249, 255, 0.247);
+@import '~src/assets/sass/variables';
+
+h1 {
+    margin-left: 40%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    color: $bl-dark-blue;
+}
+
+div.newSignatureContainer {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+    div.backOne {
+        width: 75%;
+        padding: 2%;
+    }
+
+    div.backTwo {
+        padding: 2%;
+        display: flex;
+        align-content: center;
+        justify-content: flex-start;
+        background-color: $bl-dark-blue;
+        width: 25%;
+    }
 }

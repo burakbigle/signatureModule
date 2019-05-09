@@ -1,6 +1,10 @@
-<div class="new-signature-body">
-  <div>
+<h1>New Signature</h1>
+<div class="newSignatureContainer">
+  <div class="backOne">
     <app-dragdrop *ngIf="!file" (fileDroped)="onFileDroped($event)"></app-dragdrop>
     <app-pdfdisplay [file]="file"></app-pdfdisplay>
+  </div>
+  <div class="backTwo">
+    <app-signer></app-signer>
   </div>
 </div>
