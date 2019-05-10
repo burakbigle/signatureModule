@@ -4,7 +4,13 @@
     <app-dragdrop *ngIf="!file" (fileDroped)="onFileDroped($event)"></app-dragdrop>
     <app-pdfdisplay [file]="file"></app-pdfdisplay>
   </div>
-  <div class="backTwo">
-    <app-signer></app-signer>
+  <div *ngIf="!file" class="backTwo">
+    <div *ngFor="let signer of signers">
+      <app-signer [signer]="signer"></app-signer>
+    </div>
+    <div>
+      <button class="addSignerButton" (click)="addSigner()"> Add Signer</button>
+      <button class="deleteSignerButton" (click)="deleteSigner()"> Delete</button>
+    </div>
   </div>
 </div>

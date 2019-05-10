@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { Signer } from 'src/app/signature/entities/signer';
 
 @Component({
@@ -7,12 +7,8 @@ import { Signer } from 'src/app/signature/entities/signer';
   styleUrls: ['./signer.component.scss']
 })
 export class SignerComponent implements OnInit {
-  signer: Signer = {
-    name: '',
-    uid: 123,
-    number: 1,
-    isFixed: false
-  };
+  @Input() signer: Signer;
+
   constructor() { }
 
   ngOnInit() {
