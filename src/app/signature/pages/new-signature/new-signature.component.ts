@@ -19,11 +19,15 @@ export class NewSignatureComponent implements OnInit {
   }
 
   addSigner(): void {
-    console.log('clicked');
     const newSigner: Signer = new Signer();
     newSigner.number = this.signers.length + 1;
-    newSigner.name = 'Signer ' + newSigner.number;
+    // newSigner.name = 'Signer ' + newSigner.number;
     this.signers.push(newSigner);
+  }
+
+  deleteSigner(): void {
+    console.log('lenthg: ', this.signers.length);
+    this.signers.splice(this.signers.length - 1, 1);
   }
 
 }
