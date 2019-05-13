@@ -1,6 +1,11 @@
 <div class="new-signature-body">
+  <div class="draganddrop" *ngIf="!fileFlag">
+    <app-dragdrop (fileDroped)="onFileDroped($event)"></app-dragdrop>
+  </div>
+  <div class="pdfDisplay" *ngIf="fileFlag">
+    <app-pdfdisplay [file]="file" delayFirstView="20000"></app-pdfdisplay>
+  </div>
   <div>
-    <app-dragdrop *ngIf="!file" (fileDroped)="onFileDroped($event)"></app-dragdrop>
-    <app-pdfdisplay [file]="file"></app-pdfdisplay>
+    <app-progress-bar *ngIf="fileFlag"></app-progress-bar>
   </div>
 </div>

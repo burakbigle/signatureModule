@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./new-signature.component.scss']
 })
 export class NewSignatureComponent implements OnInit {
+  fileFlag: boolean = false;
   file: File;
   constructor() { }
 
@@ -14,6 +15,7 @@ export class NewSignatureComponent implements OnInit {
 
   onFileDroped(file: File) {
     this.file = file;
+    this.fileFlag = true;
   }
 
 }

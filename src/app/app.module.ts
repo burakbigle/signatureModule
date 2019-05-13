@@ -4,9 +4,10 @@ import { SignatureModule } from 'src/app/signature/signature.module';
 import { AppComponent } from './app.component';
 
 
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
