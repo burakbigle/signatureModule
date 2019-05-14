@@ -14,6 +14,8 @@ export class ProgressBarComponent implements AfterViewInit {
 
   timer = 0;
 
+
+
   delayedProgress$ = this.loader.progress$.pipe(
     delay(1000),
     withLatestFrom(this.loader.progress$),

@@ -11,6 +11,7 @@ import { SignerComponent } from 'src/app/signature/components/signer/signer.comp
 import { NewSignatureComponent } from './pages/new-signature/new-signature.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { ProgressBarComponent } from 'src/app/signature/components/progress-bar/progress-bar.component';
+import { MatProgressBarModule, MatRadioModule, MatSliderModule } from '@angular/material';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { ProgressBarComponent } from 'src/app/signature/components/progress-bar/
     NgxExtendedPdfViewerModule,
     FileDropModule,
     LoadingBarHttpModule,
-    LoadingBarHttpClientModule
+    LoadingBarHttpClientModule,
+    MatProgressBarModule, MatRadioModule, MatSliderModule
   ],
   exports: [
     NewSignatureComponent
